@@ -1,0 +1,510 @@
+fileFormatVersion: 2
+guid: 241ed4594b0192245b7086a91cbebb49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5663557207569395092
+    second: jefe_golem_0
+  - first:
+      213: -2617152172745711168
+    second: jefe_golem_1
+  - first:
+      213: 6679132931908788343
+    second: jefe_golem_2
+  - first:
+      213: -6614855859997652410
+    second: jefe_golem_3
+  - first:
+      213: 8350672961194698059
+    second: jefe_golem_4
+  - first:
+      213: -967125975570403890
+    second: jefe_golem_5
+  - first:
+      213: 1659826415542336966
+    second: jefe_golem_6
+  - first:
+      213: 6388442244053224385
+    second: jefe_golem_7
+  - first:
+      213: -764044186199361520
+    second: jefe_golem_8
+  - first:
+      213: 1653190113065327231
+    second: jefe_golem_9
+  - first:
+      213: -7631949772683358158
+    second: jefe_golem_10
+  - first:
+      213: 6842772725914476867
+    second: jefe_golem_11
+  - first:
+      213: -1375660782217592500
+    second: jefe_golem_12
+  - first:
+      213: -4982710101886594898
+    second: jefe_golem_13
+  - first:
+      213: -7570061021913972698
+    second: jefe_golem_14
+  - first:
+      213: 7527826955922098618
+    second: jefe_golem_15
+  - first:
+      213: 2617388233014285123
+    second: jefe_golem_16
+  - first:
+      213: 8320941675784264531
+    second: jefe_golem_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jefe_golem_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 256
+        width: 92
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1a95417f10eabd0800000000000000
+      internalID: -2617152172745711168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jefe_golem_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 256
+        width: 91
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7706906930c01bc50800000000000000
+      internalID: 6679132931908788343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jefe_golem_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 257
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64acd6074af4334a0800000000000000
+      internalID: -6614855859997652410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jefe_golem_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 143
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecda21d9c041492f0800000000000000
+      internalID: -967125975570403890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jefe_golem_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 143
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdf53fa453e80710800000000000000
+      internalID: 1659826415542336966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jefe_golem_7
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 143
+        width: 85
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb44e0af5e48a850800000000000000
+      internalID: 6388442244053224385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jefe_golem_8
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 143
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01872e85cd19565f0800000000000000
+      internalID: -764044186199361520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jefe_golem_9
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 143
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a527b16af41f610800000000000000
+      internalID: 1653190113065327231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jefe_golem_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 14
+        width: 89
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c410c70aecba8ece0800000000000000
+      internalID: -1375660782217592500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jefe_golem_13
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 14
+        width: 89
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea09c46df8bd9dab0800000000000000
+      internalID: -4982710101886594898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jefe_golem_14
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 14
+        width: 89
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62089c4cb9db1f690800000000000000
+      internalID: -7570061021913972698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jefe_golem_15
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 14
+        width: 90
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9c8567bb6387860800000000000000
+      internalID: 7527826955922098618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jefe_golem_16
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 14
+        width: 90
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3439a1cfab4d25420800000000000000
+      internalID: 2617388233014285123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jefe_golem_17
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 14
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b5ddd2e5ce97370800000000000000
+      internalID: 8320941675784264531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2e1fa90617d62b04ead0de1e0c36c5c3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jefe_golem_0: -5663557207569395092
+      jefe_golem_1: -2617152172745711168
+      jefe_golem_10: -7631949772683358158
+      jefe_golem_11: 6842772725914476867
+      jefe_golem_12: -1375660782217592500
+      jefe_golem_13: -4982710101886594898
+      jefe_golem_14: -7570061021913972698
+      jefe_golem_15: 7527826955922098618
+      jefe_golem_16: 2617388233014285123
+      jefe_golem_17: 8320941675784264531
+      jefe_golem_2: 6679132931908788343
+      jefe_golem_3: -6614855859997652410
+      jefe_golem_4: 8350672961194698059
+      jefe_golem_5: -967125975570403890
+      jefe_golem_6: 1659826415542336966
+      jefe_golem_7: 6388442244053224385
+      jefe_golem_8: -764044186199361520
+      jefe_golem_9: 1653190113065327231
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,54 @@
+using UnityEngine;
+using UnityEngine.Audio; // Obligatorio para controlar el Audio Mixer
+using UnityEngine.UI;    // Obligatorio para interactuar con los Sliders de la UI
+
+public class OpcionesMenu : MonoBehaviour
+{
+    [Header("Referencias de Audio")]
+    [Tooltip("Arrastra aquí tu archivo de Audio Mixer general.")]
+    public AudioMixer audioMixer;
+
+    [Header("Referencias de la UI")]
+    [Tooltip("Arrastra el Slider que controlará la música.")]
+    public Slider sliderMusica;
+    
+    [Tooltip("Arrastra el Slider que controlará los efectos de sonido (SFX).")]
+    public Slider sliderSFX;
+
+    void Start()
+    {
+        // 1. Configuramos los límites de los Sliders por código para evitar errores.
+        // Usamos 0.0001f en lugar de 0 directo porque el logaritmo de 0 no existe matemáticamente.
+        sliderMusica.minValue = 0.0001f;
+        sliderMusica.maxValue = 1f;
+        
+        sliderSFX.minValue = 0.0001f;
+        sliderSFX.maxValue = 1f;
+
+        // 2. Forzamos a que visualmente los Sliders inicien en la barra al 60% (0.6)
+        sliderMusica.value = 0.6f;
+        sliderSFX.value = 0.6f;
+
+        // 3. Aplicamos ese 60% de volumen inicial directamente a los canales del Mixer
+        SetVolumenMusica(0.6f);
+        SetVolumenSFX(0.6f);
+
+        // 4. Dejamos a los Sliders en modo "escucha". Cada vez que el jugador los mueva,
+        // se activarán automáticamente las funciones de abajo en tiempo real.
+        sliderMusica.onValueChanged.AddListener(SetVolumenMusica);
+        sliderSFX.onValueChanged.AddListener(SetVolumenSFX);
+    }
+
+    public void SetVolumenMusica(float value)
+    {
+        // Convierte el valor decimal del slider (0.0001 a 1) en Decibelios usando logaritmos.
+        // Fórmula matemática fundamental en audio digital: dB = log10(Value) * 20
+        audioMixer.SetFloat("MúsicaVol", Mathf.Log10(value) * 20);
+    }
+
+    public void SetVolumenSFX(float value)
+    {
+        // Convierte el valor decimal del slider a Decibelios para el canal de los efectos.
+        audioMixer.SetFloat("SFXVol", Mathf.Log10(value) * 20);
+    }
+}
